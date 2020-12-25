@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title_paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:paddingLeft="5dp"
+        android:text="已配对设备"
+        android:textColor="@color/colorText"
+        android:visibility="gone" />
+    <ListView
+        android:id="@+id/lv_devices"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_title_new_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:paddingLeft="5dp"
+        android:text="可用设备"
+        android:textColor="@color/colorText"
+        android:visibility="gone" />
+    <ListView
+        android:id="@+id/lv_new_devices"
+        android:layout_width="match_parent"
+        android:layout_height="78dp" >
+    </ListView>
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBackground"
+        android:text="搜索设备"
+        android:textColor="@color/colorText"/>
+
+</LinearLayout>

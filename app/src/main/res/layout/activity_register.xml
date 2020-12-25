@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--
+    注册页面
+    -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="用户名"
+        android:id="@+id/register_edit_account"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="密码"
+        android:id="@+id/register_edit_pwd"
+        android:textSize="20sp"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="邮箱(用于找回密码)"
+        android:id="@+id/register_edit_email"
+        android:textSize="20sp"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:text="注册"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/colorBackground"/>
+    <Button
+        android:text="返回登录"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/backto_login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/colorBackground"/>
+</LinearLayout>
